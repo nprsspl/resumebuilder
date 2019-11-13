@@ -1,5 +1,6 @@
 .App {
   text-align: center;
+  align-items: center;
 }
 
 .App-logo {
@@ -7,16 +8,113 @@
 }
 
 .App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+  background-color: #3f51b5;
+  min-height: 25vh;
+
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
+  font-size: calc(20px + 2vmin);
   color: white;
 }
-
 .App-link {
   color: #09d3ac;
+}
+.App-body{
+  align-content: center;
+  background-color:#3f51b5;
+
+}
+.flex-containerrow {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  margin: 20px;
+  justify-content: center;
+  align-items: center;
+
+}
+
+.flex-container {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  margin: 50px;
+  justify-content: center;
+  align-items: center;
+
+}
+
+.flex-container>div {
+  background-color: #cfd8dc;
+  align-self: center;
+  width: 500px;
+  margin-bottom: 10px;
+  text-align: center;
+
+  line-height: 70px;
+  font-size: 30px;
+}
+.flex-container>headerlogin {
+  background-color: #2a6592;
+  align-self: center;
+  width: 500px;
+  margin: 0px;
+  text-align: center;
+  line-height: 10px;
+  font-size: 30px;
+}
+.button {
+  -webkit-transition: width 2s; /* For Safari 3.1 to 6.0 */
+transition: width 2s;
+  background-color: #4CAF50; /* Green */
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  margin: 10px;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  opacity: 0.6;
+}
+.button:hover {
+  width: 300px;
+  opacity: 1;
+  transition-timing-function: ease;
+}
+
+.buttoncancel {
+  background-color: red; /* Green */
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  margin: 10px;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  -webkit-transition: width 2s; /* For Safari 3.1 to 6.0 */
+transition: width 2s;
+}
+.buttoncancel:hover {
+  width: 300px;
+  transition-timing-function: ease;
+}
+.input[type=text] {
+  border: 2px solid blue;
+ border-radius: 4px;
+  width: 80%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+}
+.input[type=Password] {
+  border: 2px solid blue;
+ border-radius: 4px;
+  width: 80%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
 }

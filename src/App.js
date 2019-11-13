@@ -6,20 +6,36 @@ function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
+Resume Builder pro
+
       </header>
+
+<body>
+
+
+
+<div class="flex-container">
+<div class="headerlogin">
+Sign-Up
+</div>
+
+<div class="div">
+<form name="myForm" action="/action_page.php" onsubmit="return validateForm()" method="post">
+<input class="input" type="text" name="mail" placeholder="Email id"></input> <br></br>
+<input class="input" type="Password" name="Password"placeholder="Password"></input> <br></br>
+<button class="button">Login</button>
+<button class="buttoncancel">Cancel</button>
+</form>
+  </div>
+</div>
+
+</body>
+
+
     </div>
+
+
+
   );
 }
 
