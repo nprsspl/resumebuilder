@@ -6,22 +6,22 @@ import { Col, Row, Button, Form, FormGroup, Label, Input ,Card, CardImg, CardTex
  class Educationform extends Component {
      constructor(props) {
          super(props)
-     
+
          this.state = {
-              
+
            row :[
                    {degree:'',university:'',state1:'',year:'',subjects:'',marks:'',division:''}
 
              ]
-              
+
          }
      }
      myfunction(){
 
      }
-    
+
     render() {
-        
+
         return (
             <div className="Main">
                 <Card className="card1"body inverse style={{ backgroundColor: 'greenyellow', borderColor: '#333' }}>
@@ -29,7 +29,7 @@ import { Col, Row, Button, Form, FormGroup, Label, Input ,Card, CardImg, CardTex
                         <label>NAME OF THE USER</label><br></br>
                         <label>EMAIL ID</label><br></br>
                 </CardBody>
-                </Card> 
+                </Card>
                 <CardTitle  className="heading">EDUCATIONAL QUALIFICATION</CardTitle>
 
                 <Card className="card2">
@@ -45,12 +45,12 @@ import { Col, Row, Button, Form, FormGroup, Label, Input ,Card, CardImg, CardTex
                        <br></br><br></br>
 
                        <button className="button1" onClick={()=>this.myfunction()}>+</button>
-                       
-                       
+
+
                   </CardBody>
                 </Card>
                 <button>CANCEL</button>
-                <button>SUBMIT</button>
+              
             </div>
         )
     }
