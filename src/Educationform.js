@@ -45,12 +45,12 @@ import { Col, Row, Button, Form, FormGroup, Label, Input ,Card, CardImg, CardTex
                        <br></br><br></br>
 
                        <button className="button1" onClick={()=>this.myfunction()}>+</button>
-
+<button className="button1" onClick={()=>this.myfunction()}>+</button>
 
                   </CardBody>
                 </Card>
                 <button>CANCEL</button>
-              
+
             </div>
         )
     }
