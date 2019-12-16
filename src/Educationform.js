@@ -47,10 +47,13 @@ import { Col, Row, Button, Form, FormGroup, Label, Input ,Card, CardImg, CardTex
                    <td><input type="text" placeholder="university board"id ="uni"></input></td>
                    <td>  <input type="text" placeholder="state" id="state1"></input> </td>
                    <td><input type="text" placeholder="year" id="year"></input></td>
-                   <td>  <input type="text" placeholder="Main subjects" id="sub"></input></td>
-                   <td>  <input type="text" placeholder="% of marks" id="marks"></input></td>
-                   <td> <input type="text" placeholder="division" id="division"></input></td>
-                   <td><button className="button1">+</button></td></tr>
+                     <td>  <input type="text" placeholder="Main subjects" id="sub"></input></td>
+                     <td>  <input type="text" placeholder="% of marks" id="marks"></input></td>
+                     <td> <input type="text" placeholder="division" id="division"></input></td> </tr>
+                       <br></br><br></br>
+
+                            <button className="button1" onClick={()=>this.myfunction()}>+</button>
+                            <button className="button1" onClick={()=>this.myfunction()}>+</button>
 
                   </CardBody>
                 </Card>
