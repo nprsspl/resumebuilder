@@ -1,102 +1,119 @@
 .Main{
-    background-color:purple;
-    min-height:150vh;
+    background-color:#01579b;
     padding-top:200px;
+    display: flex;
+    flex-direction: column;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 
 }
+
+
 .card1{
+    display:flex;
+    radius:20px;
     width: 200px;
     position: relative;
     bottom:170px;
-    background-color:greenyellow;
-    border:solid black 2px;
+    background-color:#1976d2;
     block-size: 200px;
-    align-content: top;
+    align-items: flex-end;
     margin:auto;
-    
-    
-    
+
+
+
+
 }
+
+
+.Name{
+    color: white;
+    padding: 20px;
+    font-size: 3vw;
+    font-family: Comic;
+}
+
+
 .card2{
-    position: relative;
+  display: flex;
+  margin:auto;
+    position:relative;
     bottom:100px;
-    margin:auto;
-    width:1500px;
-    background-color: indianred;
-    block-size: 200px;
+    background-color: ##3f51b5;
+    block-size: 100px;
     align-content: center;
-    
+
 }
 .heading{
     text-align: left;
-    margin-left: 10px;
+    margin: auto;
     font-size: 30px;
     position: relative;
     bottom:100px;
 }
 #deg{
     text-align: center;
-    block-size: 30px;
+    block-size: 20px;
     margin-top:20px;
+    width:120px;
 }
 #uni{
     text-align: center;
-    block-size: 30px;
+    block-size: 20px;
     margin-top:20px;
+    width:120px;
     margin-left:10px;
 
 }
 #state1
 {
     text-align: center;
-    block-size: 30px;
-    margin-top: 20px;
+    block-size: 20px;
+    margin-top:20px;
+    width:120px;
     margin-left: 10px;
-    width:70px;
+
 }
 #year
 {
     text-align: center;
-    block-size: 30px;
+    block-size: 20px;
     margin-top:20px;
+    width:120px;
     margin-left:10px;
-    width:70px;
+
 }
 #sub
 {
     text-align: center;
-    block-size: 30px;
+    block-size: 20px;
     margin-top:20px;
+    width:120px;
     margin-left:10px;
 }
 #marks{
     text-align: center;
-    block-size: 30px;
+    block-size: 20px;
     margin-top:20px;
+    width:120px;
     margin-left:10px;
 }
 #division{
     text-align: center;
-    block-size: 30px;
+    block-size: 20px;
     margin-top:20px;
+    width:120px;
     margin-left:10px;
 }
 .button1 {
     background-color: red; /* Green */
-  border: none;
   color: white;
-  padding: 20px;
+padding:10px;
   text-align: center;
   text-decoration: none;
-  display: inline-block;
-  font-size: 16px;
-  margin: 4px 2px;
+  font-size: 30px;
   cursor: pointer;
-  float: left;
-  position: relative;
+  border-color: red;
   border-radius: 50%;
   left:150px;
-    
+
   }
- 
