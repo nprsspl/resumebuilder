@@ -3,12 +3,15 @@ import logo from './logo.svg';
 import './App.css';
 import './Educationform.css';
 import Educationform from './Educationform';
+import Personalinfo from './components/Personalinfo';
+import ExperienceDetails from './components/ExperienceDetails';
 
 
 function App() {
   return (
     <div className="Educationform">
-<Educationform/>
+{/* <Educationform/> */}
+       <ExperienceDetails/>
           </div>
 
 
